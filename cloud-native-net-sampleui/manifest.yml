@@ -1,0 +1,8 @@
+---
+applications:
+- name: Guru-cloud-nativeUI
+instances: 1
+memory: 1024M
+stack: cflinuxfs2
+services:
+- Guru-Service-Registry
