@@ -1,0 +1,6 @@
+applications:
+- name: core-cf-guru
+  buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack
+  instances: 1
+  stack: cflinuxfs2
+  memory: 256M
